@@ -24,6 +24,80 @@ h1{
     height: 800px;
 }
 
+
+.profile .profile-text{
+    width: 500px;
+    float: right;
+}
+
+.profile-title{
+    float: left;
+}
+.about h2{
+    font-size: 64px;
+}
+.about p{
+    font-size: 32px;
+}
+
+.profile img{
+    width: 700px;
+    height: 700px;
+}
+
+.spot{
+    background-color: #EEEEEE;
+}
+
+#tab1:checked~.panels #area1{
+    display: block;
+    background:#FFFEF0;
+}
+#tab2:checked~.panels #area2{
+    display: block;
+    background:#FFFEF0;
+}
+
+#tab1:checked~.tab_lab1{
+background-color: #D4EBEC;
+color: #7B7A7A;
+}
+
+#tab2:checked~.tab_lab2{
+    background: #D4EBEC;
+    color: #7B7A7A;
+}
+
+#tab3:checked~.tab_lab3{
+    background: #D4EBEC;
+    color: #7B7A7A;
+}
+
+.panel_content img{
+width: 150px;
+}
+
+.link{
+    font-size: 64px;
+    color: #fff;
+   padding-top: 50px;
+  text-align: center;
+  background-color: #58B2E8;
+  height: 500px;
+}
+.link img{
+    width: 144px;
+}
+.link-all{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+
+
+
 footer{
     height: 50px;
     background-color: #fff;

@@ -23,14 +23,45 @@
           <h1>Let's Go to Shimane</h1>
     </section>
     <section class="about" id="about">
-      <h2>About</h2>
-      <p>西日本北部に位置している島根県。豊富な海の幸はもちろん縁結びの地としても有名です。</p>
-      <img src="nanannimages/島根県地図水色.jpg" alt="">
+      <div class="profile">
+         <div class="profile-text">
+           <h2 class="profile-title">About</h2>
+           <p>西日本北部に位置している島根県。豊富な海の幸はもちろん縁結びの地としても有名です。</p>
+         </div>
+       <img src="nanannimages/島根県地図水色.jpg" alt="">
+      </div>
     </section>
     <section class="spot" id="spot">
-      <h2>出雲周辺</h2>
-      <h2>松江周辺</h2>
-      <h2>隠岐周辺</h2>
+      <div class="tab-spot">
+          <input id="tab1" type="radio" name="check" checked>
+          <label for="tab1" class="tab_lab1">Tab1</label>
+          <input id="tab2" type="radio" name="check">
+          <label for="tab2" class="tab_lab2">Tab2</label>
+          <input id="tab3" type="radio" name="check">
+          <label id="tab3" class="tab_lab3">Tab3</label>
+      </div>
+      <div class="panels">
+          <div id="area1" class="panel">
+                <ul class="panel_content">
+                  <li><img src="nanannimages/出雲大社しめ縄.jpg" alt="">
+                    <h3>出雲大社</h3>
+                  </li>
+                  <li>ボックス内コンテンツ</li>
+                </ul>
+          </div>   
+          <div id="area2" class="panel">
+                <ul class="panel_content">
+                  <li>ボックス内コンテンツ</li>
+                  <li>ボックス内コンテンツ</li>  
+                </ul>
+          </div>
+          <div id="area3" class="panel">
+                <ul class="panel_content">
+                  <li>ボックス内コンテンツ</li>
+                  <li>ボックス内コンテンツ</li>  
+                </ul>   
+          </div>
+      </div>
     </section>
     <section class="course" id="course">
         <h2>Day1</h2>
@@ -39,7 +70,21 @@
 
     </section>
     <section class="link" id="link">
-
+      <h2>LINK</h2>
+      <div class="link-all">
+        <div class="link-instagram">
+          <a href="https://www.instagram.com/shimane.goen/?hl=ja"><img src="nanannimages/glyph-logo_May2016.png" alt=""></a>
+          <p>instagram</p>
+        </div>
+        <div class="link-HP">
+          <a href="https://www.kankou-shimane.com/"><img src="nanannimages/HP イラスト.png" alt=""></a>
+          <p>島根観光ナビ</p>
+        </div>
+        <div class="link-twitter">
+          <a href="https://twitter.com/shimaneken_pr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="nanannimages/twitter_icon_128462.png" alt=""></a>
+          <p>Twitter</p>
+        </div>
+      </div>
     </section>
     <footer> @nanann</footer>
 </body>
