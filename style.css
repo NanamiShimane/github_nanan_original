@@ -12,6 +12,10 @@ header{
 
 }
 
+.nav-font{
+    color: #58B2E8;
+}
+
 h1{
     font-size: 85px;
     color: #fff;
@@ -22,6 +26,7 @@ h1{
 .firstView {
     background-image: url(nanannimages/出雲大社本殿.webp);
     height: 800px;
+    background-size: cover;
 }
 
 
@@ -30,12 +35,12 @@ h1{
     float: right;
 }
 
-.profile-title{
-    float: left;
-}
 .about h2{
     font-size: 64px;
+    margin-left: 70px;
+    margin-top: 50px;
 }
+
 .about p{
     font-size: 32px;
 }
@@ -44,9 +49,24 @@ h1{
     width: 700px;
     height: 700px;
 }
+.profile-title{
+    margin-left:70px;
+    margin-top: 50px;
+ 
+}
+
+.profile-text{
+margin-right: 200px;
+margin-top: 250px;
+}
 
 .spot{
     background-color: #EEEEEE;
+}
+.spot h2{
+    font-size: 64px;
+    margin-left: 70px;
+    margin-top: 50px;
 }
 
 #tab1:checked~.panels #area1{
@@ -77,8 +97,49 @@ color: #7B7A7A;
 width: 150px;
 }
 
-.link{
+.course h2{
     font-size: 64px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.course-blue{
+    background-color: #D4EBEC;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 50px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+
+} 
+.course h3{
+    margin-top: 30px;
+    margin-left: 180px;
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+.course h4{
+    color: #fff;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    
+    width: 70px;
+    height: 165px;
+    background-color: #7B7A7A;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding-top: 30px;
+  
+}
+    
+    
+
+
+.link{
+    font-size: 48px;
     color: #fff;
    padding-top: 50px;
   text-align: center;
