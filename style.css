@@ -124,7 +124,7 @@ width: 150px;
     color: #fff;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
-    
+    font-size: 15px;
     width: 70px;
     height: 165px;
     background-color: #7B7A7A;
@@ -132,19 +132,138 @@ width: 150px;
     justify-content: space-between;
     align-items:center ;
     padding-top: 30px;
-  
 }
+
+.day1 img{
+    border-radius: 50%;
+    width: 370px;
+    height: 370px;
+    border: 15px solid #419ACF;
+}
+.izumoennmusubi{
+    text-align: center;
+    color: #419ACF;
+}
+.inasanohama{
+   padding-left: 150px;
+   padding-top: 200px;
+   color: #419ACF;
+}
+
+.shimenawa{
+    padding-top: 100px;
+    padding-left: 850px;
+    color: #419ACF;
+}
+
+.shinnjiko{
+text-align: center;
+padding-top: 200px;
+color: #419ACF;
+}
+
+.tamatukurionnsenn img{
+    width: 1000px;
+    height: 600px;
+    border: 15px solid #419ACF;
+    margin-top: 300px;
+    margin-left: 200px;
+}
+
+.tamatukurionnsenn p{
+    text-align: center;
+    color: #419ACF;
+}
+
+.day2{
+    background-color: #419ACF;
+}
+
+.day2 img{
+    border-radius: 50%;
+    width: 370px;
+    height: 370px;
+    border: 15px solid #fff;
+}
+
+.tamatukurionnsenneki{
+    text-align: center;
+    color: #fff;
+}
+
+.matuejyou{
+    padding-left: 150px;
+    padding-top: 200px;
+    color: #fff;
+}
+
+.adachiibijyutukann{
+    padding-top: 100px;
+    padding-left: 850px;
+    color: #fff;
+}
+
+.izumoennmusubi2{
+    text-align: center;
+    padding-top: 200px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+.reservation{
+    background-color: #FFFEF0;
+    height: 800px;
+}
+
     
-    
+
+
+.reservation h2{
+color: #58B2E8;
+font-size: 64px;
+}
+.reservation img{
+    width: 500px;
+    height: 500px;
+    transform: rotate(10deg);
+    border-radius: 30px;
+}
+
+
+
+.reservation-all{
+  padding-top: 100px;
+
+}
+.reservation-all .reservation-text {
+    float:left;
+}
+.reservation-text{
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+.reservation-text a{
+    color: #1F1F29;
+    font-size: 24px;
+    background-color: #D9D9D9;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+}
 
 
 .link{
     font-size: 48px;
     color: #fff;
-   padding-top: 50px;
-  text-align: center;
-  background-color: #58B2E8;
-  height: 500px;
+    padding-top: 50px;
+    text-align: center;
+    background-color: #58B2E8;
+    height: 500px;
 }
 .link img{
     width: 144px;
