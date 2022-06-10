@@ -20,7 +20,8 @@ h1{
     font-size: 85px;
     color: #fff;
     text-align: center;
-    padding-top: 334px;
+    padding-top: 350px;
+    font-family: 'Zen Maru Gothic', sans-serif;
 }
 
 .firstView {
@@ -81,6 +82,11 @@ margin-top: 250px;
     background:#FFFEF0;
 }
 
+#tab3:checked~.panels #area3{
+    display: block ;
+    background: #FFFEF0;
+}
+
 #tab1:checked~.tab_lab1{
 background-color: #D4EBEC;
 color: #7B7A7A;
@@ -95,10 +101,19 @@ color: #7B7A7A;
     background: #D4EBEC;
     color: #7B7A7A;
 }
+.panel{
+    padding: 50px;
+    display: none;
+}
+
+input[name="check"]{
+    display: none;
+}
 
 .panel_content img{
 width: 150px;
 }
+
 .course{
     color: #1F1F29;
 }
@@ -160,11 +175,18 @@ width: 150px;
    padding-top: 200px;
    color: #419ACF;
 }
+.inasanohama p{
+    padding-left: 160px;
+}
 
 .shimenawa{
     padding-top: 100px;
     padding-left: 850px;
     color: #419ACF;
+}
+
+.shimenawa p{
+    padding-left: 170px;
 }
 
 .shinnjiko{
@@ -216,11 +238,17 @@ color: #419ACF;
     padding-top: 200px;
     color: #fff;
 }
+.matuejyou p{
+    padding-left: 170px;
+}
 
 .adachiibijyutukann{
     padding-top: 100px;
     padding-left: 850px;
     color: #fff;
+}
+.adachiibijyutukann p{
+    padding-left: 160px;
 }
 
 .izumoennmusubi2{
@@ -268,13 +296,23 @@ font-size: 64px;
     padding-left: 50px;
     padding-right: 100px;
 }
+.reservation-text h2{
+    padding-bottom: 200px;
+}
 .reservation-text a{
     color: #1F1F29;
     font-size: 24px;
     background-color: #D9D9D9;
-    padding: 10px 20px 10px 20px;
-    border-radius: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-left: 200px;
+    padding: 10px 10px 10px 10px;
+   
 }
+
 
 
 .link{
