@@ -64,6 +64,7 @@ margin-top: 250px;
 }
 
 .spot{
+    width: 100%;
     background-color: #EEEEEE;
     color: #1F1F29;
 }
@@ -71,6 +72,13 @@ margin-top: 250px;
     font-size: 64px;
     margin-left: 70px;
     margin-top: 50px;
+}
+
+.tab-spot{
+    height: 2300px;
+   padding-left: 100px;
+   padding-right: 100px;
+   padding-bottom: 20px;
 }
 
 #tab1:checked~.panels #area1{
@@ -88,19 +96,25 @@ margin-top: 250px;
 }
 
 #tab1:checked~.tab_lab1{
-background-color: #D4EBEC;
-color: #7B7A7A;
+background-color: #7B7A7A;
+color: #D4EBEC;
 }
 
 #tab2:checked~.tab_lab2{
-    background: #D4EBEC;
-    color: #7B7A7A;
+    background: #7B7A7A;
+    color: #D4EBEC;
 }
 
 #tab3:checked~.tab_lab3{
-    background: #D4EBEC;
-    color: #7B7A7A;
+    background: #7B7A7A;
+    color: #D4EBEC;
 }
+
+.tab_lab1, .tab_lab2, .tab_lab3{
+    background-color: #D4EBEC;
+color: #7B7A7A;
+}
+
 .panel{
     padding: 50px;
     display: none;
