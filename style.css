@@ -14,6 +14,11 @@ header{
 
 .nav-font{
     color: #58B2E8;
+    background-color: #FFFEF0;
+    width: 200px;
+   text-align: center;
+   line-height: 80px;
+  
 }
 
 h1{
@@ -67,6 +72,8 @@ margin-top: 250px;
     width: 100%;
     background-color: #EEEEEE;
     color: #1F1F29;
+    padding-top: 30px;
+    
 }
 .spot h2{
     font-size: 64px;
@@ -74,8 +81,13 @@ margin-top: 250px;
     margin-top: 50px;
 }
 
+ul{
+list-style-type: none;
+}
+
 .tab-spot{
-    height: 2300px;
+   height: 2300px;
+   padding-top: 50px;
    padding-left: 100px;
    padding-right: 100px;
    padding-bottom: 20px;
@@ -115,6 +127,7 @@ color: #D4EBEC;
 color: #7B7A7A;
 display: flex;
 flex-wrap: wrap;
+display: inline-block;
 }
 
 .panel{
@@ -122,12 +135,27 @@ flex-wrap: wrap;
     display: none;
 }
 
+.panel_content{
+    color: #1F1F29;
+}
+
+.panel_content h3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 36px;
+}
+
+.panel_content p{
+font-size: 24px;
+padding-bottom: 100px;
+}
 input[name="check"]{
     display: none;
 }
 
 .panel_content img{
-width: 150px;
+width: 100%;
+text-align: center;
 }
 
 .course{
