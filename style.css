@@ -33,12 +33,14 @@ h1{
 .profile .profile-text{
     width: 500px;
     float: right;
+    color: #1F1F29;
 }
 
 .about h2{
     font-size: 64px;
     margin-left: 70px;
     margin-top: 50px;
+    color: #1F1F29;
 }
 
 .about p{
@@ -62,6 +64,7 @@ margin-top: 250px;
 
 .spot{
     background-color: #EEEEEE;
+    color: #1F1F29;
 }
 .spot h2{
     font-size: 64px;
@@ -95,6 +98,9 @@ color: #7B7A7A;
 
 .panel_content img{
 width: 150px;
+}
+.course{
+    color: #1F1F29;
 }
 
 .course h2{
@@ -140,6 +146,11 @@ width: 150px;
     height: 370px;
     border: 15px solid #419ACF;
 }
+
+.day1 h3{
+    font-size: 128px;
+    color: #419ACF;  
+}
 .izumoennmusubi{
     text-align: center;
     color: #419ACF;
@@ -162,6 +173,8 @@ padding-top: 200px;
 color: #419ACF;
 }
 
+
+
 .tamatukurionnsenn img{
     width: 1000px;
     height: 600px;
@@ -173,12 +186,19 @@ color: #419ACF;
 .tamatukurionnsenn p{
     text-align: center;
     color: #419ACF;
+    padding-bottom: 100px;
 }
 
 .day2{
+    padding-top: 50px;
     background-color: #419ACF;
+    height: 2500px;
 }
 
+.day2 h3{
+    font-size: 128px;
+    color: #fff;
+}
 .day2 img{
     border-radius: 50%;
     width: 370px;
