@@ -113,6 +113,8 @@ color: #D4EBEC;
 .tab_lab1, .tab_lab2, .tab_lab3{
     background-color: #D4EBEC;
 color: #7B7A7A;
+display: flex;
+flex-wrap: wrap;
 }
 
 .panel{
