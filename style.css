@@ -9,7 +9,6 @@ header{
     font-size: 32px;
     line-height: 100px;
     color: #58B2E8;
-
 }
 
 .nav-font{
@@ -87,11 +86,11 @@ list-style-type: none;
 
 .tab-spot{
    height: 2300px;
-   padding-top: 50px;
-   padding-left: 100px;
-   padding-right: 100px;
-   padding-bottom: 20px;
+   padding: 10% 10% 10% 10.27%;
+   
 }
+
+
 
 #tab1:checked~.panels #area1{
     display: block;
@@ -125,9 +124,16 @@ color: #D4EBEC;
 .tab_lab1, .tab_lab2, .tab_lab3{
     background-color: #D4EBEC;
 color: #7B7A7A;
+font-size: 36px;
 display: flex;
 flex-wrap: wrap;
 display: inline-block;
+padding-top: 10px;
+padding-left: 118px;
+padding-right: 118px;
+text-align: center;
+height: 70px;
+
 }
 
 .panel{
