@@ -17,7 +17,12 @@ header{
     width: 200px;
    text-align: center;
    line-height: 80px;
-  
+   font-size: 32px;
+   padding-top: 300px;
+   height: 500px;  
+}
+.nav-font a{
+    text-decoration: none;
 }
 
 h1{
@@ -28,11 +33,17 @@ h1{
     font-family: 'Zen Maru Gothic', sans-serif;
 }
 
-.firstView {
-    background-image: url(nanannimages/出雲大社本殿.webp);
-    height: 800px;
-    background-size: cover;
+.firstView{
+background-image: url(nanannimages/出雲大社本殿.webp);
+height: 800px;
+width: 1240px;
+float: right;
 }
+
+
+
+
+
 
 
 .profile .profile-text{
@@ -201,9 +212,19 @@ text-align: center;
     background-color: #7B7A7A;
     display: flex;
     justify-content: space-between;
-    align-items:center ;
+    align-items:center;
     padding-top: 30px;
     font-size: 20px;
+}
+
+.arrow-right {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 0 10px;
+    border-top: 4px solid #7B7A7A;
+    border-right: 4px solid #7B7A7A;
+    transform: rotate(45deg);
 }
 
 .day1 img{
@@ -224,6 +245,8 @@ text-align: center;
     text-align: center;
     color: #419ACF;
 }
+
+
 .inasanohama{
    padding-left: 150px;
    padding-top: 200px;
