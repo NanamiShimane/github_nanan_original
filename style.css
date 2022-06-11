@@ -429,3 +429,8 @@ footer{
     text-align: center;
     letter-spacing: 1px;
 }
+
+@media all and (max-width:480px){
+    
+}
+    
