@@ -53,19 +53,19 @@ float: right;
 }
 
 .about h2{
-    font-size: 64px;
+    font-size: 48px;
     margin-left: 70px;
     margin-top: 50px;
     color: #1F1F29;
 }
 
 .about p{
-    font-size: 32px;
+    font-size: 24px;
 }
 
 .profile img{
-    width: 700px;
-    height: 700px;
+    width: 600px;
+    height: 600px;
 }
 .profile-title{
     margin-left:70px;
@@ -86,7 +86,7 @@ margin-top: 250px;
     
 }
 .spot h2{
-    font-size: 64px;
+    font-size: 48px;
     margin-left: 70px;
     margin-top: 50px;
 }
@@ -401,21 +401,23 @@ font-size: 64px;
 
 
 .link{
-    font-size: 48px;
+    font-size: 32px;
     color: #fff;
-    padding-top: 50px;
+    padding-top: 30px;
     text-align: center;
     background-color: #58B2E8;
-    height: 500px;
+    height: 300px;
 }
 .link img{
-    width: 144px;
+    width: 100px;
 }
 .link-all{
     font-size: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
     
 }
 
