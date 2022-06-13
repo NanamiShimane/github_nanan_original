@@ -14,10 +14,10 @@ header{
 .nav-font{
     color: #58B2E8;
     background-color: #FFFEF0;
-   width: 200px;
+   width: 150px;
    text-align: center;
    line-height: 80px;
-   font-size: 32px;
+   font-size: 28px;
    padding-top: 300px;
    height: 500px;  
 }
@@ -36,7 +36,7 @@ h1{
 .firstView{
 background-image: url(nanannimages/出雲大社本殿.webp);
 height: 800px;
-width: 1240px;
+width: 1290px;
 float: right;
 }
 
@@ -96,7 +96,7 @@ list-style-type: none;
 }
 
 .tab-spot{
-   height: 2300px;
+   height: 2050px;
    padding: 10% 10% 10% 10.27%;
    
 }
@@ -159,11 +159,11 @@ height: 70px;
 .panel_content h3{
     padding-top: 30px;
     padding-bottom: 30px;
-    font-size: 36px;
+    font-size: 24px;
 }
 
 .panel_content p{
-font-size: 24px;
+font-size: 18px;
 padding-bottom: 100px;
 }
 input[name="check"]{
@@ -180,17 +180,17 @@ text-align: center;
 }
 
 .course h2{
-    font-size: 64px;
+    font-size: 48px;
     margin-left: 70px;
     margin-top: 50px;
 }
 
 .course-blue{
     background-color: #D4EBEC;
-    margin-left: 180px;
-    margin-right: 180px;
-    margin-bottom: 50px;
-    height: 400px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 30px;
+    height: 200px;
     display: flex;
     justify-content: space-around;
     align-items:center ;
@@ -200,22 +200,23 @@ text-align: center;
     margin-top: 30px;
     margin-left: 180px;
     margin-bottom: 10px;
-    font-size: 36px;
+    font-size: 28px;
 }
 
 .course h4{
     color: #fff;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
-    font-size: 15px;
-    width: 70px;
-    height: 165px;
+    width: 50px;
+    height: 110px;
+  
     background-color: #7B7A7A;
     display: flex;
     justify-content: space-between;
     align-items:center;
-    padding-top: 30px;
-    font-size: 20px;
+    padding-top: 15px;
+    font-size: 14px;
+
 }
 
 .arrow-right {
@@ -230,17 +231,17 @@ text-align: center;
 
 .day1 img{
     border-radius: 50%;
-    width: 370px;
-    height: 370px;
-    border: 15px solid #419ACF;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #419ACF;
 }
 
 .day1 h3{
-    font-size: 128px;
+    font-size: 48px;
     color: #419ACF;  
 }
 .day1 p{
-  font-size: 32px;  
+  font-size: 20px;  
 }
 .izumoennmusubi{
     text-align: center;
@@ -249,8 +250,8 @@ text-align: center;
 
 
 .inasanohama{
-   padding-left: 150px;
-   padding-top: 200px;
+   padding-left: 300px;
+ 
    color: #419ACF;
 }
 .inasanohama p{
@@ -258,7 +259,7 @@ text-align: center;
 }
 
 .shimenawa{
-    padding-top: 100px;
+  
     padding-left: 850px;
     color: #419ACF;
 }
@@ -269,44 +270,49 @@ text-align: center;
 
 .shinnjiko{
 text-align: center;
-padding-top: 200px;
+
 color: #419ACF;
 }
 
 
 
 .tamatukurionnsenn img{
-    width: 1000px;
-    height: 600px;
-    border: 15px solid #419ACF;
-    margin-top: 300px;
-    margin-left: 200px;
+    width: 700px;
+    height: 500px;
+    border: 5px solid #419ACF;
+    margin-top: 100px;
+    margin-left:360px;
 }
 
 .tamatukurionnsenn p{
     text-align: center;
     color: #419ACF;
     padding-bottom: 100px;
-    font-size: 32px;
+    font-size: 20px;
 }
 
 .day2{
     padding-top: 50px;
     background-color: #419ACF;
-    height: 2800px;
+    height: 1200px;
     font-size: 32px;
 }
 
 .day2 h3{
-    font-size: 128px;
+    font-size: 48px;
     color: #fff;
 }
 .day2 img{
     border-radius: 50%;
-    width: 370px;
-    height: 370px;
-    border: 15px solid #fff;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #fff;
 }
+
+.day2 p{
+    font-size: 20px;  
+  }
+
 
 .tamatukurionnsenneki{
     text-align: center;
@@ -315,7 +321,7 @@ color: #419ACF;
 
 .matuejyou{
     padding-left: 150px;
-    padding-top: 200px;
+
     color: #fff;
 }
 
@@ -324,7 +330,7 @@ color: #419ACF;
 }
 
 .adachiibijyutukann{
-    padding-top: 100px;
+   
     padding-left: 850px;
     color: #fff;
 }
@@ -334,14 +340,14 @@ color: #419ACF;
 
 .izumoennmusubi2{
     text-align: center;
-    padding-top: 200px;
+   
     color: #fff;
 }
 
 
 .reservation{
     background-color: #FFFEF0;
-    height: 800px;
+    height: 600px;
 }
 
     
@@ -349,11 +355,11 @@ color: #419ACF;
 
 .reservation h2{
 color: #58B2E8;
-font-size: 64px;
+font-size: 36px;
 }
 .reservation img{
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     transform: rotate(10deg);
     border-radius: 30px;
 }
@@ -369,8 +375,8 @@ font-size: 64px;
 }
 .reservation-text{
     padding-top: 100px;
-    padding-left: 50px;
-    padding-right: 100px;
+    padding-left: 300px;
+    padding-right: 200px;
 }
 
 .reservation-text h2{
@@ -379,12 +385,12 @@ font-size: 64px;
 
 .reservation a{
     color: #1F1F29;
-    font-size: 24px;
+    font-size: 18px;
     background-color: #D9D9D9;
     border-radius: 30px;
     text-decoration: none;
     display: block;
-    width: 200px;
+    width: 150px;
     text-align: center;
     margin-left: 200px;
     padding: 10px 10px 10px 10px;
