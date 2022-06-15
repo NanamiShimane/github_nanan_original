@@ -5,11 +5,6 @@
     
 }
 
-header{
-    font-size: 32px;
-    line-height: 100px;
-    color: #58B2E8;
-}
 
 .nav-font{
     color: #58B2E8;
@@ -70,17 +65,24 @@ float: right;
 .profile img{
     width: 600px;
     height: 600px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px; 
+    padding-top: 80px;
+
 }
 .profile-title{
     margin-left:70px;
     margin-top: 50px;
- 
 }
 
-.profile-text{
-margin-right: 200px;
-margin-top: 250px;
+.profile-text{ 
+    margin-right: 200px;
+    margin-top: 250px;
+}
+
+.profile-text p{
+    padding-left: 100px;
+   
 }
 
 .spot{
@@ -103,23 +105,24 @@ list-style-type: none;
 .tab-spot{
    height: 2050px;
    padding: 10% 10% 10% 10.27%;
-   
+  
 }
 
 
 
 #tab1:checked~.panels #area1{
     display: block;
-    background:#FFFEF0;
+    background-color: #FFFEF0;
+
 }
 #tab2:checked~.panels #area2{
     display: block;
-    background:#FFFEF0;
+    background-color: #FFFEF0;
 }
 
 #tab3:checked~.panels #area3{
     display: block ;
-    background: #FFFEF0;
+   background-color: #FFFEF0;
 }
 
 #tab1:checked~.tab_lab1{
@@ -151,6 +154,8 @@ text-align: center;
 height: 70px;
 
 }
+
+
 
 .panel{
     padding: 50px;
@@ -194,7 +199,7 @@ text-align: center;
     background-color: #D4EBEC;
     margin-left: 200px;
     margin-right: 200px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     height: 200px;
     display: flex;
     justify-content: space-around;
@@ -213,14 +218,14 @@ text-align: center;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
     width: 50px;
-    height: 110px;
-  
+    height: 100px;
     background-color: #7B7A7A;
     display: flex;
     justify-content: space-between;
     align-items:center;
     padding-top: 15px;
     font-size: 14px;
+    letter-spacing: 3px;
 
 }
 
@@ -236,8 +241,8 @@ text-align: center;
 
 .day1 img{
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border: 5px solid #419ACF;
 }
 
@@ -260,22 +265,21 @@ text-align: center;
    color: #419ACF;
 }
 .inasanohama p{
-    padding-left: 65px;
+    padding-left: 115px;
 }
 
 .shimenawa{
   
-    padding-left: 940px;
+    padding-left: 840px;
     color: #419ACF;
 }
 
 .shimenawa p{
-    padding-left: 68px;
+    padding-left: 115px;
 }
 
 .shinnjiko{
 text-align: center;
-
 color: #419ACF;
 }
 
@@ -299,7 +303,7 @@ color: #419ACF;
 .day2{
     padding-top: 50px;
     background-color: #419ACF;
-    height: 1200px;
+    height: 1600px;
     font-size: 32px;
 }
 
@@ -309,8 +313,8 @@ color: #419ACF;
 }
 .day2 img{
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border: 5px solid #fff;
 }
 
@@ -331,16 +335,16 @@ color: #419ACF;
 }
 
 .matuejyou p{
-    padding-left: 70px;
+    padding-left: 115px;
 }
 
 .adachiibijyutukann{
    
-    padding-left: 940px;
+ padding-left: 840px;
     color: #fff;
 }
 .adachiibijyutukann p{
-    padding-left: 65px;
+    padding-left: 110px;
 }
 
 .izumoennmusubi2{
@@ -453,6 +457,40 @@ footer{
 
 .h1{
     font-size: 36px;
+}
+.spot h2{
+    font-size: 20px;
+}
+
+.reservation{
+height: 300px;
+}
+.reservation h2{
+font-size: 18px;
+}
+
+.reservation img{
+    width: 100px;
+    height: 100px;
+}
+
+.link img{
+    width: 30px;
+}
+
+.link{
+    height: 100px;
+    font-size: 18px;
+}
+.link-all{
+font-size: 10px;
+margin-top: 10px;
+margin-left: 30px;
+margin-right: 30px;
+}
+
+.footer{
+    height: 5px;
 }
 
 }
