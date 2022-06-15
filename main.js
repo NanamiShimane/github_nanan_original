@@ -7,12 +7,9 @@ $(function($){
             $('.profile').css('opacity','1');
             $('.profile').css('transform','translateY(0)');
         }
-
     });
 
 $(".nav_toggle").on("click",function(){
         $(".nav_toggle, .nav").toggleClass("show");
     });
-
-
 });

@@ -85,12 +85,12 @@ float: right;
    
 }
 
+
 .spot{
     width: 100%;
     background-color: #EEEEEE;
     color: #1F1F29;
     padding-top: 30px;
-    
 }
 .spot h2{
     font-size: 48px;
@@ -161,6 +161,7 @@ height: 70px;
     display: none;
 }
 
+
 .panel_content{
     color: #1F1F29;
 }
@@ -173,8 +174,12 @@ height: 70px;
 
 .panel_content p{
 font-size: 18px;
-padding-bottom: 100px;
 }
+
+.panel_content a{
+    font-size: 12px;
+}
+
 input[name="check"]{
     display: none;
 }
@@ -191,7 +196,7 @@ text-align: center;
 .course h2{
     font-size: 48px;
     margin-left: 70px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .course-blue{
