@@ -468,11 +468,11 @@ footer{
 }
 
 
+
 .about h2{
     font-size: 20px;
-    padding-right: 250px;
-    padding-left: 20px;
-    margin-left: 0px
+    margin-left: 20px;
+    margin-top: 10px;
     
 }
 .about p{
@@ -480,11 +480,11 @@ footer{
 }
 
 .profile img{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     padding-bottom: 0px;
-    padding-left: 0px; 
-    padding-top: 0px;
+    padding-left: 10px; 
+    padding-top: 10px;
 
 }
 
@@ -497,7 +497,7 @@ footer{
 
 .profile-text{ 
     margin-right: 0px;
-    margin-top: 0px;
+    margin-top: 40px;
 }
 
 .profile-text p{
