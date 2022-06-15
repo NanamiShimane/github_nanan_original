@@ -505,11 +505,8 @@ footer{
    
 }
 
-
 .spot{
     width: 100%;
-    background-color: #EEEEEE;
-    color: #1F1F29;
     padding-top: 30px;
     
 }
@@ -529,25 +526,17 @@ footer{
 
 .tab_lab1, .tab_lab2, .tab_lab3{
 font-size: 14px;
-display: flex;
-flex-wrap: wrap;
-display: inline-block;
 padding-top: 0px;
 padding-left: 33px;
 padding-right:33px;
-text-align: center;
 height: 20px;
 }
 
 
 .panel{
     padding: 20px;
-    display: none;
 }
 
-.panel_content{
-    color: #1F1F29;
-}
 
 .panel_content h3{
     padding-top: 10px;
@@ -559,13 +548,9 @@ height: 20px;
 font-size: 12px;
 padding-bottom: 30px;
 }
-input[name="check"]{
-    display: none;
-}
 
 .panel_content img{
 width: 100%;
-text-align: center;
 }
 
 
@@ -576,15 +561,10 @@ text-align: center;
 }
 
 .course-blue{
-    background-color: #D4EBEC;
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 0px;
     height: 100px;
-    display: flex;
-    justify-content: space-around;
-    align-items:center ;
-
 } 
 .course h3{
     margin-top: 10px;
@@ -594,15 +574,8 @@ text-align: center;
 }
 
 .course h4{
-    color: #fff;
-    -ms-writing-mode: tb-rl;
-    writing-mode: vertical-rl;
     width: 20px;
     height: 70px;
-    background-color: #7B7A7A;
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
     padding-top: 5px;
     font-size: 8px;
     letter-spacing: 0px;
@@ -616,10 +589,144 @@ text-align: center;
     margin: 0 5px;
     border-top: 3px solid #7B7A7A;
     border-right: 3px solid #7B7A7A;
-    transform: rotate(45deg);
+}
+
+.day1 img{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #419ACF;
+}
+
+.day1 h3{
+    font-size: 20px;
+}
+.day1 p{
+  font-size: 10px;  
+}
+
+.inasanohama{
+   padding-left: 50px;
+}
+.inasanohama p{
+    padding-left: 35px;
+}
+
+.shimenawa{
+    padding-left: 210px;
+}
+
+.shimenawa p{
+    padding-left: 35px;
+}
+
+.shinnjiko{
+text-align: center;
 }
 
 
+
+.tamatukurionnsenn img{
+    width: 70%;
+    height: 70%;
+    border: 3px solid #419ACF;
+    margin-top: 30px;
+    margin-left:15%;
+}
+
+.tamatukurionnsenn p{
+    padding-bottom: 30px;
+    font-size: 10px;
+}
+
+.day2{
+    padding-top: 10px;
+    height: 600px;
+}
+
+.day2 h3{
+    font-size: 20px;
+    color: #fff;
+}
+.day2 img{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #fff;
+}
+
+.day2 p{
+    font-size: 10px;  
+  }
+
+.matuejyou{
+    padding-left: 50px;
+}
+
+.matuejyou p{
+    padding-left: 35px;
+}
+
+.adachiibijyutukann{ 
+ padding-left: 210px;
+}
+.adachiibijyutukann p{
+    padding-left: 30px;
+}
+
+.reservation{
+    background-color: #FFFEF0;
+    height: 300px;
+}
+
+.reservation h2{
+color: #58B2E8;
+font-size: 36px;
+}
+.reservation img{
+    width: 300px;
+    height: 300px;
+    transform: rotate(10deg);
+    border-radius: 30px;
+}
+
+
+
+.reservation-all{
+  padding-top: 100px;
+
+}
+.reservation-all .reservation-text {
+    float:left;
+}
+.reservation-text{
+    padding-top: 100px;
+    padding-left: 300px;
+    padding-right: 200px;
+}
+
+.reservation-text h2{
+    padding-bottom: 200px;
+}
+
+.reservation a{
+    color: #1F1F29;
+    font-size: 18px;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    text-align: center;
+    margin-left: 200px;
+    padding: 10px 10px 10px 10px;
+   
+}
+
+
+
+.reservation a:hover{
+    background-color: #1F1F29;
+    color: #D9D9D9;
+}
 
 
 
