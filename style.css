@@ -506,9 +506,41 @@ footer{
 }
 
 
+.spot{
+    width: 100%;
+    background-color: #EEEEEE;
+    color: #1F1F29;
+    padding-top: 30px;
+    
+}
 .spot h2{
     font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
+.tab-spot{
+    height: 1500px;
+    padding:0px;
+   
+ }
+
+
+.tab_lab1, .tab_lab2, .tab_lab3{
+font-size: 14px;
+display: flex;
+flex-wrap: wrap;
+display: inline-block;
+padding-top: 0px;
+padding-left: 33px;
+padding-right:33px;
+text-align: center;
+height: 20px;
+
+}
+
+
 
 .reservation{
 height: 300px;
