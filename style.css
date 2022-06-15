@@ -460,6 +460,52 @@ footer{
     font-size: 18px;
     text-align: center;
 }
+
+.profile .profile-text{
+    width: 200px;
+    float: right;
+    color: #1F1F29;
+}
+
+
+.about h2{
+    font-size: 20px;
+    padding-right: 250px;
+    padding-left: 20px;
+    margin-left: 0px
+    
+}
+.about p{
+    font-size: 16px;
+}
+
+.profile img{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 0px;
+    padding-left: 0px; 
+    padding-top: 0px;
+
+}
+
+.profile-title{
+    margin-left:0px;
+    margin-top: 0px;
+    width: 100px;
+}
+
+
+.profile-text{ 
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.profile-text p{
+    padding-left: 0px;
+   
+}
+
+
 .spot h2{
     font-size: 20px;
 }
