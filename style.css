@@ -680,21 +680,21 @@ text-align: center;
 font-size: 14px;
 }
 .reservation img{
-    width:100px;
-    height: 100px;
+    width:70px;
+    height: 70px;
 }
 
 .reservation-all{
-  padding-top: 0px;
+  padding-top: 10px;
 
 }
 .reservation-all .reservation-text {
     float:left;
 }
 .reservation-text{
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 50px;
 }
 
 .reservation-text h2{
@@ -703,9 +703,9 @@ font-size: 14px;
 
 .reservation a{
     font-size: 10px;
- 
     width: 70px;
     margin-left:   100px;
+    margin-top: 10px;
     padding: 5px 5px 5px 5px;
 
 }
