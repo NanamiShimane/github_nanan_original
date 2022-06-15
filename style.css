@@ -29,7 +29,7 @@ h1{
 }
 
 .firstView{
-background-image: url(nanannimages/出雲大社本殿.webp);
+background-image: url(nanannimages/izumotaisyahonndenn.webp);
 height: 800px;
 width: 1290px;
 float: right;
@@ -105,7 +105,6 @@ list-style-type: none;
 .tab-spot{
    height: 2050px;
    padding: 10% 10% 10% 10.27%;
-  
 }
 
 
@@ -217,13 +216,14 @@ text-align: center;
     color: #fff;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
-    width: 50px;
+    width: 55px;
     height: 100px;
     background-color: #7B7A7A;
     display: flex;
     justify-content: space-between;
     align-items:center;
-    padding-top: 15px;
+    text-align: center;
+    padding-top: 10px;
     font-size: 14px;
     letter-spacing: 3px;
 
@@ -302,7 +302,7 @@ color: #419ACF;
 
 .day2{
     padding-top: 50px;
-    background-color: #419ACF;
+    background-color: #8BB7D7;
     height: 1600px;
     font-size: 32px;
 }
@@ -448,10 +448,22 @@ footer{
 }
 
 @media all and (max-width:480px){
+.nav_toggle,
+.nav{
+    display: none;
+}
+    
+
+.h1{
+    font-size: 10px;
+    text-align: center;
+    padding-top: 0px;
+}
 .firstView {
     background-image: url(nanannimages/izumotaisyashimenawa.jpg);
     width: 100%;
-    height: 600px;
+    height: 812px;
+background-size: cover;
     float: none;
 }
 
@@ -459,6 +471,79 @@ footer{
 .h1{
     font-size: 18px;
     text-align: center;
+}
+
+.nav_toggle{
+    display: block;
+    position: relative;
+    width: 1.75rem;
+    height: 1.5rem;
+    margin-right: 10px;
+    z-index: 2;
+}
+.nav_toggle i{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    position: absolute;
+    transition: transform 0.5s, ocacity 0.5s;
+}
+
+.nav_toggle i:nth-child(1){
+    top: 0;
+}
+
+.nav_toggle i:nth-child(2){
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.nav_toggle i:nth-child(3){
+    bottom: 0;
+}
+
+.nav_toggle.show i:nth-child(1){
+    transform: translateY(10px) rotate(-45deg);
+}
+
+.nav_toggle.show i:nth-child(2){
+    opacity: 0;
+}
+
+.nav_toggle.show i:nth-child(3){
+    transform: translateY(-12px) rotate(45deg)
+}
+
+.nav{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0.5s;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.nav_menu_li{
+    margin-bottom: 30px;
+}
+
+.nav_menu_li a{
+   color: #ee6557;
+   text-decoration: none;
+}
+
+.nav.show{
+    opacity: 1;
+    visibility: visible;
 }
 
 .profile .profile-text{
@@ -557,7 +642,7 @@ width: 100%;
 .course h2{
     font-size: 20px;
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 70px;
 }
 
 .course-blue{
@@ -682,7 +767,9 @@ font-size: 14px;
 .reservation img{
     width:70px;
     height: 70px;
+    border-radius: 10px;
 }
+
 
 .reservation-all{
   padding-top: 10px;
