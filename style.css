@@ -25,7 +25,7 @@ h1{
     color: #fff;
     text-align: center;
     padding-top: 350px;
-    font-family: 'Zen Maru Gothic', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .firstView{
@@ -33,6 +33,7 @@ background-image: url(nanannimages/izumotaisyahonndenn.webp);
 height: 800px;
 width: 1290px;
 float: right;
+background-size: cover;
 }
 
 
@@ -112,11 +113,12 @@ list-style-type: none;
 #tab1:checked~.panels #area1{
     display: block;
     background-color: #FFFEF0;
-
+height: 2000px;
 }
 #tab2:checked~.panels #area2{
     display: block;
     background-color: #FFFEF0;
+
 }
 
 #tab3:checked~.panels #area3{
@@ -168,7 +170,7 @@ height: 70px;
 
 .panel_content h3{
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 3px;
     font-size: 24px;
 }
 
@@ -178,7 +180,23 @@ font-size: 18px;
 
 .panel_content a{
     font-size: 12px;
+    color: #1F1F29;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    text-decoration: none;
+    display: block;
+    width: 50px;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
+.panel_content a:hover{
+    background-color: #1F1F29;
+    color: #D9D9D9;
+}
+
 
 input[name="check"]{
     display: none;
@@ -196,7 +214,7 @@ text-align: center;
 .course h2{
     font-size: 48px;
     margin-left: 70px;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .course-blue{
@@ -622,6 +640,9 @@ padding-right:33px;
 height: 20px;
 }
 
+#tab1:checked~.panels #area1{
+height: 750px;
+}
 
 .panel{
     padding: 20px;
