@@ -661,13 +661,24 @@ height: 750px;
 
 .panel_content p{
 font-size: 12px;
-padding-bottom: 30px;
+padding-bottom: 5px;
 }
 
 .panel_content img{
 width: 100%;
 }
 
+.panel_content a{
+    font-size: 8px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: block;
+    width: 45px;
+    text-align: center;
+    padding: 3px 3px 3px 3px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
 
 .course h2{
     font-size: 20px;
